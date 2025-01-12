@@ -75,9 +75,10 @@ echo "Do you want my cofig files"
 read -p "Enter 1 to contiue" option
 
 if [ $option == 1 ]; then
-    cp ./config/* ~/.config/
+    cp -r config/* ~/.config/
+    cp -r nvim ~/.config/
     echo "Copying Complete"
-    cp ./config/.tmux.conf ~/
+    cp -r ./config/.tmux.conf ~/
 else
     echo "Not choosen"
 fi
@@ -86,7 +87,7 @@ echo "Do you want my wallpapers"
 read -p "Enter 1 to contiue" option
 
 if [ $option == 1 ]; then
-    cp ./config/wallpapers/* ~/Pictures/
+    cp -r wallpapers/* ~/Pictures/
     echo "Copying Complete"
 else
     echo "Not choosen"
@@ -99,3 +100,5 @@ if [ $option = 1 ]; then
 else
     echo "Not selcted"
 fi
+cp -r .zshrc ~/
+cp -r scripts ~/
