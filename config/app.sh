@@ -78,7 +78,8 @@ if [ $option == 1 ]; then
     cp -r config/* ~/.config/
     cp -r nvim ~/.config/
     echo "Copying Complete"
-    cp -r ./config/.tmux.conf ~/
+    cp -r .tmux.conf ~/
+    cp -r picom.conf ~/.config
 else
     echo "Not choosen"
 fi
