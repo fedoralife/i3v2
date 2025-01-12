@@ -1,0 +1,21 @@
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1061726368000173663125300000489640005
+clientId2=1061726368000173663126200000489640006
+clientId3=1061726368000173663127400000489640008
+count=3
+discardCommand2[$e]=rm,$HOME/.config/session/konsole_1061726368000173663126200000489640006_1736631810_147905
+program1=/usr/lib/DiscoverNotifier
+program2=/usr/bin/konsole
+program3=firefox
+restartCommand1=/usr/lib/DiscoverNotifier,-session,1061726368000173663125300000489640005_1736631810_147848
+restartCommand2=/usr/bin/konsole,-session,1061726368000173663126200000489640006_1736631810_147905
+restartCommand3=/usr/lib/firefox/firefox,--sm-client-id,1061726368000173663127400000489640008
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=compsciwins
+userId2=compsciwins
+userId3=compsciwins
